@@ -6,6 +6,10 @@ from celery_router.tasks import rapidsms_handle_message
 class CeleryRouter(BlockingRouter):
     """Skeleton router only used to execute the Celery task."""
 
+    def _logger_name(self):
+        # override default logger name to be more explicit
+        return __name__
+
     def _queue_message(self, msg, incoming):
         eager = False
         backend_name = msg.connection.backend.name
