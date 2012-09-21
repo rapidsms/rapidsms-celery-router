@@ -29,3 +29,4 @@ Contents
 
    installation
    configuration
+   releases
