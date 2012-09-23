@@ -13,6 +13,7 @@ if not settings.configured:
             }
         },
         INSTALLED_APPS=(
+            'rapidsms',
             'celery_router',
         ),
         SITE_ID=1,
