@@ -13,15 +13,4 @@ Please read the documentation_ for more information.
 .. image::
     https://secure.travis-ci.org/rapidsms/rapidsms-celery-router.png?branch=master
     :alt: Build Status
-        :target: https://secure.travis-ci.org/rapidsms/rapidsms-celery-router
-
-Running the Tests
------------------
-
-You can run the tests with via::
-
-    python setup.py test
-
-or::
-
-    python runtests.py
+    :target: https://secure.travis-ci.org/rapidsms/rapidsms-celery-router
