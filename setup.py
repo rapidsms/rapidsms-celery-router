@@ -38,6 +38,7 @@ setup(
         "django-celery",
     ],
     long_description=read_file('README.rst'),
+    tests_require=['mock', ],
     test_suite="runtests.runtests",
     zip_safe=False,
 )
