@@ -6,10 +6,16 @@
 Welcome to rapidsms-celery-router!
 ==================================
 
-rapidsms-celery-router is a custom RapidSMS_ router implementation that uses Celery_ to queue incoming and outgoing messages.
+rapidsms-celery-router is a custom RapidSMS_ router implementation that uses
+Celery_ to queue incoming and outgoing messages.
+
+.. warning::
+    rapidsms-celery-router is only compatible with the `feature/new-routing`_
+    branch of RapidSMS.
 
 .. _RapidSMS: http://www.rapidsms.org/
 .. _Celery: http://www.celeryproject.org/
+.. _feature/new-routing: https://github.com/rapidsms/rapidsms/tree/feature/new-routing
 
 Motivation
 ----------
