@@ -10,6 +10,11 @@ Please read the documentation_ for more information.
 
 .. _documentation: http://rapidsms-celery-router.readthedocs.org/en/latest/index.html
 
+.. image::
+    https://secure.travis-ci.org/rapidsms/rapidsms-celery-router.png?branch=master
+    :alt: Build Status
+        :target: https://secure.travis-ci.org/rapidsms/rapidsms-celery-router
+
 Running the Tests
 -----------------
 
